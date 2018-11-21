@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class p8 {
+        public static void main(String[] args) {
+            Scanner scn = new Scanner(System.in);
+            int a = scn.nextInt();
+            double sum =0;
+            for (int i=1;i<=a;i++){
+              double b= 1.0/((2*i-1)*(2*i));
+              sum+=b;
+            }
+            System.out.println(sum);
+    }
+}
